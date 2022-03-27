@@ -1,0 +1,12 @@
+<?php
+   $respuestas = array(
+    "respuesta 1",
+       "L.A. Parka",
+       "El Santo",
+       "Hijo del perro",
+       "Mistico",
+       "no eres luchador eres una seño gritona"
+       );
+   $random = array_rand($respuestas);
+   echo $respuestas[$random];
+?>
